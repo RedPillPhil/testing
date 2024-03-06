@@ -2050,7 +2050,7 @@
 						});
 						let n = null,
 							o = null;
-						return e && e.baseFeePerGas && (o = r.O$.from("2500000000"), n = e.baseFeePerGas.mul(2).add(o)), {
+						return e && e.baseFeePerGas && (o = r.O$.from("4500000000"), n = e.baseFeePerGas.mul(2).add(o)), {
 							maxFeePerGas: n,
 							maxPriorityFeePerGas: o,
 							gasPrice: t
