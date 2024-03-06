@@ -2157,34 +2157,24 @@
 				return "0x".concat(e.quotient.toString(16))
 			}
 
-function Gt(e, n) {
-    var isInputNative = e.inputAmount.currency.isNative,
-        isOutputNative = e.outputAmount.currency.isNative;
-    (0, _t.Z)(!(isInputNative && isOutputNative), "ETHER_IN_OUT"), (0, _t.Z)(!("ttl" in n) || n.ttl > 0, "TTL");
-    var methodName, args, value, inputAmountWithSlippage = qt((0, a.w3)(e, n.allowedSlippage)),
-        outputAmountWithSlippage = qt((0, a.cP)(e, n.allowedSlippage)),
-        path = e.route.path.map(function(token, index) {
-            return 0 === index && e.inputAmount.currency.isNative || index === e.route.path.length - 1 && e.outputAmount.currency.isNative ? $t : token.isToken ? token.address : $t
-        }),
-        pairAddresses = e.route.pairs.map(function(pair) {
-            return (null === pair || void 0 === pair ? void 0 : pair.stableSwapAddress) ? "0x0" : "0x1"
-        });
-    if (2 === path.length) {
-        methodName = "swap";
-        args = [path[0], path[1], inputAmountWithSlippage, outputAmountWithSlippage, pairAddresses[0]];
-        value = isInputNative ? inputAmountWithSlippage : "0x0";
-    } else {
-        methodName = "swapMulti";
-        args = [path, inputAmountWithSlippage, outputAmountWithSlippage, pairAddresses];
-        value = isInputNative ? inputAmountWithSlippage : "0x0";
-    }
-    return {
-        methodName: methodName,
-        args: args,
-        value: value
-    }
-}
-
+			function Gt(e, n) {
+				var t = e.inputAmount.currency.isNative,
+					r = e.outputAmount.currency.isNative;
+				(0, _t.Z)(!(t && r), "ETHER_IN_OUT"), (0, _t.Z)(!("ttl" in n) || n.ttl > 0, "TTL");
+				var o, i, u, c = qt((0, a.w3)(e, n.allowedSlippage)),
+					s = qt((0, a.cP)(e, n.allowedSlippage)),
+					l = e.route.path.map((function(n, t) {
+						return 0 === t && e.inputAmount.currency.isNative || t === e.route.path.length - 1 && e.outputAmount.currency.isNative ? $t : n.isToken ? n.address : $t
+					})),
+					d = e.route.pairs.map((function(e) {
+						return (null === e || void 0 === e ? void 0 : e.stableSwapAddress) ? "0x0" : "0x1"
+					}));
+				return 2 === l.length ? (o = "swap", i = [l[0], l[1], c, s, d[0]], u = t ? c : "0x0") : (o = "swapMulti", i = [l, c, s, d], u = t ? c : "0x0"), {
+					methodName: o,
+					args: i,
+					value: u
+				}
+			}
 			var Xt = t(23599);
 
 			function Yt() {

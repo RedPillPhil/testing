@@ -25378,8 +25378,8 @@
 			! function(e) {
 				e[e.EXACT_INPUT = 0] = "EXACT_INPUT", e[e.EXACT_OUTPUT = 1] = "EXACT_OUTPUT"
 			}(xt || (xt = {}));
-			var Tt, _t, Ot, kt, Et = (wt(Tt = {}, gt.MAINNET, "0xf6239423FcF1c19ED2791D9648A90836074242Fd"), wt(Tt, gt.TESTNET, "0x7B2cde10ebd24D0C5399359Ffc708B44BBc1854e"), wt(Tt, gt.ONE, "0xaE4EC9901c3076D0DdBe76A520F9E90a6227aCB7"), Tt),
-				St = (wt(_t = {}, gt.MAINNET, "0x70b19cf85a176c6b86e2d324be179104bdc8fafee13d548ae07d28b9f53cbc71"), wt(_t, gt.TESTNET, "0x70b19cf85a176c6b86e2d324be179104bdc8fafee13d548ae07d28b9f53cbc71"), wt(_t, gt.ONE, "0x5c9d12e487d245c53fb0b8dd1ba2ccc48810e6b9671311502b8632e88b0d605b"), _t),
+			var Tt, _t, Ot, kt, Et = (wt(Tt = {}, gt.MAINNET, "0xf6239423FcF1c19ED2791D9648A90836074242Fd"), wt(Tt, gt.TESTNET, "0x7B2cde10ebd24D0C5399359Ffc708B44BBc1854e"), wt(Tt, gt.ONE, "0xd394e9cc20f43d2651293756f8d320668e850f1b"), Tt),
+				St = (wt(_t = {}, gt.MAINNET, "0x70b19cf85a176c6b86e2d324be179104bdc8fafee13d548ae07d28b9f53cbc71"), wt(_t, gt.TESTNET, "0x70b19cf85a176c6b86e2d324be179104bdc8fafee13d548ae07d28b9f53cbc71"), wt(_t, gt.ONE, "0x8336ef61546f16041265cbd61fb71f00434b515a1f3dba059227802ec4a4be4f"), _t),
 				At = i().BigInt(1e3),
 				Pt = i().BigInt(0),
 				Ct = i().BigInt(1),
@@ -27590,16 +27590,80 @@
 			}
 		},
 		7233: function(e, t, n) {
-    "use strict";
-    var r = n(85893),
-        i = n(78491);
+			"use strict";
+			var r = n(85893),
+				i = (n(67294), n(78491));
 
-  t.Z = function(e) {
-    return null; // This will make the function display nothing
-}
-},
-
-
+			function o(e, t, n) {
+				return t in e ? Object.defineProperty(e, t, {
+					value: n,
+					enumerable: !0,
+					configurable: !0,
+					writable: !0
+				}) : e[t] = n, e
+			}
+			t.Z = function(e) {
+				return (0, r.jsxs)(i.Z, function(e) {
+					for (var t = 1; t < arguments.length; t++) {
+						var n = null != arguments[t] ? arguments[t] : {},
+							r = Object.keys(n);
+						"function" === typeof Object.getOwnPropertySymbols && (r = r.concat(Object.getOwnPropertySymbols(n).filter((function(e) {
+							return Object.getOwnPropertyDescriptor(n, e).enumerable
+						})))), r.forEach((function(t) {
+							o(e, t, n[t])
+						}))
+					}
+					return e
+				}({
+					viewBox: "0 0 532 160",
+					width: "100%"
+				}, e, {
+					children: [(0, r.jsx)("path", {
+						d: "M267.01 138.696V85.1064H294.778C303.837 85.1064 308.663 89.932 308.663 98.9906V99.9219C308.663 102.97 308.155 105.594 307.139 107.626C306.546 108.726 305.869 109.742 304.938 110.589C305.107 110.674 305.191 110.758 305.361 110.843C306.377 111.605 307.308 112.536 307.985 113.637C308.663 114.737 309.255 116.007 309.594 117.446C309.932 118.886 310.102 120.494 310.102 122.272V124.812C310.102 133.87 305.276 138.696 296.218 138.696H267.01ZM296.048 128.283C296.979 128.283 298.249 128.114 298.927 127.521C299.435 126.928 299.689 125.912 299.689 124.558V120.664C299.689 119.224 299.435 118.208 298.927 117.7C298.419 117.192 297.403 116.938 296.048 116.938H277.508V128.283H296.048ZM295.032 106.441C295.794 106.441 296.895 106.271 297.487 105.594C297.995 105.001 298.249 103.986 298.249 102.631V99.3292C298.249 97.89 297.995 96.8741 297.487 96.2815C296.895 95.6042 295.54 95.5195 294.609 95.5195H277.508V106.441H295.032ZM248.131 138.696L238.818 118.632H225.865V138.696H215.283V85.1064H244.49C253.549 85.1064 258.375 89.932 258.375 98.9906V104.663C258.375 113.044 254.311 116.515 250.163 117.785L259.899 138.611H248.131V138.696ZM244.152 108.049C245.591 108.049 246.607 107.795 247.115 107.287C247.623 106.779 247.877 105.763 247.877 104.324V99.3292C247.877 97.89 247.623 96.8741 247.115 96.3661C246.607 95.8582 245.591 95.6042 244.152 95.6042H225.865V108.049H244.152ZM200.044 138.696L195.557 127.098H175.239L170.752 138.696H160L180.657 85.1064H190.139L210.796 138.696H200.044ZM191.493 116.6L185.398 100.853L179.302 116.6H191.493Z",
+						fill: "#509FE9"
+					}), (0, r.jsx)("path", {
+						d: "M487.972 138.696V85.1066H517.179C526.238 85.1066 531.064 89.9322 531.064 98.9908V106.102C531.064 115.246 526.238 119.986 517.179 119.986H498.554V138.612H487.972V138.696ZM516.756 109.489C518.195 109.489 519.211 109.235 519.719 108.727C520.227 108.219 520.481 107.203 520.481 105.764V99.3295C520.481 97.8903 520.227 96.8743 519.719 96.3664C519.211 95.8584 518.195 95.6044 516.756 95.6044H498.554V109.489H516.756ZM472.733 138.696L468.246 127.098H447.928L443.441 138.696H432.604L453.346 85.1066H462.828L483.485 138.696H472.733ZM464.182 116.6L458.087 100.853L451.991 116.6H464.182ZM410.169 138.696L400.688 105.51L391.206 138.696H380.792L365.384 85.1066H376.136L385.957 120.494L395.777 85.1066H405.513L415.334 120.494L425.239 85.1066H435.991L420.667 138.696H410.169ZM326.695 138.696C325.51 138.696 324.324 138.442 323.224 138.019C322.123 137.596 321.192 136.918 320.43 136.156C319.668 135.395 318.991 134.379 318.568 133.363C318.06 132.262 317.89 131.077 317.89 129.892V121.764H328.473V128.198H350.146V117.193H327.457C326.272 117.193 325.086 116.939 323.986 116.515C322.885 116.007 321.954 115.415 321.192 114.653C320.345 113.806 319.753 112.875 319.245 111.859C318.737 110.759 318.568 109.573 318.568 108.388V93.9959C318.568 92.8107 318.822 91.6254 319.245 90.5249C319.668 89.4243 320.345 88.493 321.192 87.7311C321.954 86.9691 322.885 86.2919 323.986 85.8686C325.086 85.3606 326.272 85.1066 327.457 85.1066H351.839C353.024 85.1066 354.209 85.3606 355.31 85.8686C356.326 86.2919 357.342 86.9691 358.104 87.7311C358.866 88.493 359.543 89.4243 359.966 90.5249C360.389 91.6254 360.643 92.726 360.643 93.9112V102.123H350.061V95.6044H329.065V106.61H351.754C352.939 106.61 354.125 106.864 355.225 107.287C356.326 107.711 357.257 108.388 358.104 109.15C358.95 109.997 359.543 110.928 359.966 112.028C360.389 113.129 360.643 114.23 360.643 115.415V129.722C360.643 130.908 360.389 132.093 359.966 133.193C359.543 134.294 358.866 135.225 358.104 135.987C357.257 136.834 356.326 137.426 355.225 137.85C354.125 138.273 353.024 138.527 351.839 138.527H326.695V138.696Z",
+						fill: "white"
+					}), (0, r.jsx)("path", {
+						d: "M70.0921 61.0362C0.396957 60.7398 17.9806 160 17.9806 160H122.988C122.988 160 140.135 60.7398 70.3817 61.0362H70.0921Z",
+						fill: "#509FE9"
+					}), (0, r.jsx)("path", {
+						d: "M36.6483 77.3895C36.6483 77.3895 7.18419 68.3823 4.05833 88.0563C0.932486 107.79 29.0653 102.457 29.0653 102.457L36.6483 77.3895Z",
+						fill: "#509FE9"
+					}), (0, r.jsx)("path", {
+						d: "M103.711 77.3895C103.711 77.3895 133.175 68.3823 136.301 88.0563C139.427 107.79 111.294 102.457 111.294 102.457L103.711 77.3895Z",
+						fill: "#509FE9"
+					}), (0, r.jsx)("path", {
+						d: "M49.7666 80.3542C46.1774 80.3542 42.4729 77.095 39.8101 74.7838C38.0156 73.1838 36.279 71.5838 35.1792 70.4578C34.7161 70.043 34.253 69.6282 33.732 69.3318C31.5902 68.0874 27.7697 65.5394 24.2966 61.391C19.5499 55.7614 14.6295 46.1615 18.2764 32.4723C24.8175 7.9387 44.3832 0.590462 45.2514 0.294161C47.8564 -0.653995 50.7505 0.768269 51.6769 3.43496C52.6029 6.10166 51.2135 9.06465 48.6089 10.0128C48.0299 10.2498 33.1531 15.998 28.0013 35.1983C26.0331 42.5463 27.3066 49.0059 31.706 54.3986C35.2371 58.7242 39.5784 60.7986 39.5784 60.7986L40.3888 61.2134L40.5048 61.3318C39.1154 54.2798 40.794 48.8279 42.8781 45.1539C42.9359 45.0947 42.9359 45.0355 42.9938 44.9763C45.7722 40.1167 52.6608 40.1759 55.4392 45.0947L55.7866 45.7463H55.8444C55.8444 45.7463 53.182 47.4059 51.503 50.6059C49.3615 54.6946 49.7666 59.6726 52.6029 65.3614C53.9345 67.969 54.7449 70.043 55.2079 71.643C56.3656 76.0874 54.4554 78.3394 53.182 79.2282C52.0243 79.9986 50.9244 80.3542 49.7666 80.3542Z",
+						fill: "#509FE9"
+					}), (0, r.jsx)("path", {
+						d: "M22.4488 52.678C22.1015 52.678 21.7542 52.6188 21.349 52.5596C13.4764 50.7816 7.62993 46.93 3.98308 41.0632C-1.92132 31.5815 0.452026 20.4406 0.567799 19.9665C1.20455 17.1813 3.86731 15.4627 6.58798 16.1146C9.30862 16.7665 10.9873 19.4924 10.4085 22.2776C10.4085 22.3962 9.4823 26.9 10.7558 31.5815C12.3187 37.4482 16.5444 41.004 23.5487 42.604C26.2693 43.1964 28.0059 45.9816 27.3692 48.7668C26.8482 51.0188 24.7643 52.678 22.4488 52.678Z",
+						fill: "#509FE9"
+					}), (0, r.jsx)("path", {
+						d: "M90.6378 80.3542C89.4801 80.3542 88.3802 79.9986 87.2803 79.2282C86.0069 78.2802 84.0966 76.0874 85.2543 71.643C85.6595 70.043 86.5277 67.969 87.8593 65.3614C90.7535 59.6726 91.1008 54.6946 88.9592 50.6059C87.2803 47.4059 84.6175 45.7463 84.6175 45.7463H84.6757L85.023 45.0947C87.7437 40.1759 94.69 40.1167 97.4685 44.9763C97.5263 45.0355 97.5263 45.0947 97.5842 45.1539C99.6683 48.8279 101.347 54.2798 99.9574 61.391L100.131 61.2134L100.942 60.7986C100.942 60.7986 105.283 58.7242 108.814 54.3986C113.214 49.0059 114.487 42.5463 112.519 35.1983C107.425 15.998 92.5481 10.2498 91.9112 10.0128C89.3066 9.06465 87.9172 6.10166 88.8432 3.43496C89.7696 0.768269 92.6637 -0.653995 95.2687 0.294161C96.0791 0.590462 115.703 7.9387 122.244 32.4723C125.891 46.1615 120.97 55.7022 116.223 61.3318C112.75 65.4802 108.93 68.0282 106.788 69.2726C106.267 69.569 105.746 69.9246 105.341 70.3986C104.241 71.4654 102.505 73.1246 100.71 74.7246C97.9315 77.095 94.2266 80.3542 90.6378 80.3542Z",
+						fill: "#509FE9"
+					}), (0, r.jsx)("path", {
+						d: "M117.963 52.6801C115.648 52.6801 113.564 51.0209 113.043 48.6505C112.464 45.8653 114.143 43.1393 116.864 42.4873C123.868 40.9465 128.036 37.3318 129.656 31.4651C130.93 26.7243 130.004 22.2206 130.004 22.1613C129.367 19.3761 131.104 16.6502 133.824 15.9983C136.545 15.3464 139.266 17.1242 139.845 19.9094C139.96 20.3835 142.334 31.5244 136.429 41.0061C132.782 46.8725 126.936 50.7837 119.006 52.5025C118.658 52.6209 118.311 52.6801 117.963 52.6801Z",
+						fill: "#509FE9"
+					}), (0, r.jsx)("path", {
+						d: "M50.5803 106.664H50.0591C48.3227 106.664 46.9332 105.242 46.9332 103.464V95.642C46.9332 93.864 48.3227 92.4416 50.0591 92.4416H50.5803C52.3167 92.4416 53.7061 93.864 53.7061 95.642V103.464C53.7061 105.242 52.3167 106.664 50.5803 106.664Z",
+						fill: "white"
+					}), (0, r.jsx)("path", {
+						d: "M90.2868 106.664H89.7656C88.0292 106.664 86.6397 105.242 86.6397 103.464V95.642C86.6397 93.864 88.0292 92.4416 89.7656 92.4416H90.2868C92.0232 92.4416 93.4126 93.864 93.4126 95.642V103.464C93.4126 105.242 92.0232 106.664 90.2868 106.664Z",
+						fill: "white"
+					}), (0, r.jsx)("path", {
+						d: "M70.1992 135.82C78.5435 135.82 85.3074 128.895 85.3074 120.353C85.3074 111.811 78.5435 104.886 70.1992 104.886C61.8552 104.886 55.0909 111.811 55.0909 120.353C55.0909 128.895 61.8552 135.82 70.1992 135.82Z",
+						fill: "white"
+					}), (0, r.jsx)("path", {
+						d: "M70.1968 117.274L63.1348 120.889C63.1348 120.889 63.6556 127.051 70.1968 127.051C76.738 127.051 77.2592 120.355 77.2592 120.355L70.1968 117.274Z",
+						fill: "#509FE9"
+					}), (0, r.jsx)("path", {
+						d: "M64.1181 105.895L70.138 110.044L76.1584 105.895C76.2162 105.895 69.1542 100.207 64.1181 105.895Z",
+						fill: "#509FE9"
+					})]
+				}))
+			}
+		},
 		44069: function(e, t, n) {
 			"use strict";
 			var r = n(85893),
@@ -31917,7 +31981,7 @@
 			var r = {
 				421613: "0x81cD91B6BD7D275a7AeebBA15929AE0f0751d18C",
 				42170: "0xEe01c0CD76354C383B8c7B4e65EA88D00B06f36f",
-				42161: "0xbee5c10cf6e4f68f831e11c1d9e59b43560b3642"
+				42161: "0xD01319f4b65b79124549dE409D36F25e04B3e551"
 			};
 			t.Z = {
 				masterChef: {
@@ -32166,7 +32230,16 @@
 					isStableLp: !1,
 					isFlexible: !0
 				}],
-				s = [ {
+				s = [{
+					pid: 6,
+					lpSymbol: "FRAX/USDC",
+					lpAddress: "0xb05CFFF3748B778023BdD83CafC1d66808a909C4",
+					stableSwapAddress: "0x3c3d5d32c7b0c61aab03177da5cf1360aa43d0aa",
+					token: o.fi.frax,
+					quoteToken: o.fi.usdcn,
+					isStableLp: !0,
+					isFlexible: !0
+				}, {
 					pid: 5,
 					lpSymbol: "frxETH/WETH",
 					lpAddress: "0xd7F3187A58F81Ee965D80F4686c466B9ef25010A",
@@ -32176,11 +32249,19 @@
 					isStableLp: !0,
 					isFlexible: !0
 				}, {
+					pid: 4,
+					lpSymbol: "ETH/USDC",
+					lpAddress: "0xbE0a388ae4819044849aCa624e9e6c552FE10d8A",
+					token: o.fi.usdcn,
+					quoteToken: o.fi.weth,
+					isStableLp: !1,
+					isFlexible: !0
+				}, {
 					pid: 0,
 					lpSymbol: "ARBS/ETH",
-					lpAddress: "0x90a865d351E10a1C52Fdb620d1918eB6505B4CBF",
-					token: o.fi.slinky,
-					quoteToken: o.fi.usdt,
+					lpAddress: "0x62Ac1705d1577aE6e4dA1634ED571Fef78ceC3F9",
+					token: o.fi.arbs,
+					quoteToken: o.fi.weth,
 					isStableLp: !1
 				}, {
 					pid: 1,
@@ -32268,8 +32349,8 @@
 				c = (a(s = {}, i.a_.MAINNET, [{
 					lpSymbol: "USDC-DAI LP",
 					lpAddress: "0x46bFBBaE671aCae4724B3CA9548A11cDbE9c063D",
-					token: o.TV[i.a_.MAINNET].moon,
-					quoteToken: o.TV[i.a_.MAINNET].weth,
+					token: o.TV[i.a_.MAINNET].usdc,
+					quoteToken: o.TV[i.a_.MAINNET].dai,
 					stableSwapAddress: "0xF23349346a2898ffb29E4EDe725CC223Ded09E75",
 					infoStableSwapAddress: "0x52d44Bb3Eb9f13Da839ebDA8393b8a783d161D48",
 					stableLpFee: 2e-4,
@@ -32278,8 +32359,35 @@
 					lpSymbol: "USDT-USDC LP",
 					lpAddress: "0xC371b81D1Ae1FBED41f011507CeAC3CfA5877e97",
 					token: o.TV[i.a_.ONE].usdt,
-					quoteToken: o.TV[i.a_.ONE].bsmart,
+					quoteToken: o.TV[i.a_.ONE].usdc,
 					stableSwapAddress: "0xE97Af01c48C0A332C06A92dF36b77B2A680AB54B",
+					infoStableSwapAddress: "0xaA50d30612A58f2e7935C4482Fa426B0Aa770d7f",
+					stableLpFee: 2e-4,
+					stableLpFeeRateOfTotalFee: .5
+				}, {
+					lpSymbol: "wstETH-WETH LP",
+					lpAddress: "0x7Ed231f5e6462E008497087a5e8f8ae437256966",
+					token: o.TV[i.a_.ONE].wstETH,
+					quoteToken: o.TV[i.a_.ONE].weth,
+					stableSwapAddress: "0xE7dE07F541EBeCcA39aB65CA2203bc54B7107353",
+					infoStableSwapAddress: "0xaA50d30612A58f2e7935C4482Fa426B0Aa770d7f",
+					stableLpFee: 2e-4,
+					stableLpFeeRateOfTotalFee: .5
+				}, {
+					lpSymbol: "FRAX-USDC LP",
+					lpAddress: "0xb05CFFF3748B778023BdD83CafC1d66808a909C4",
+					token: o.TV[i.a_.ONE].frax,
+					quoteToken: o.TV[i.a_.ONE].usdcn,
+					stableSwapAddress: "0x3c3d5d32c7b0c61aab03177da5cf1360aa43d0aa",
+					infoStableSwapAddress: "0xaA50d30612A58f2e7935C4482Fa426B0Aa770d7f",
+					stableLpFee: 2e-4,
+					stableLpFeeRateOfTotalFee: .5
+				}, {
+					lpSymbol: "frxETH-WETH LP",
+					lpAddress: "0xd7F3187A58F81Ee965D80F4686c466B9ef25010A",
+					token: o.TV[i.a_.ONE].frxETH,
+					quoteToken: o.TV[i.a_.ONE].weth,
+					stableSwapAddress: "0x0c00a7a12d2c118212c871e3b52736478fe282a6",
 					infoStableSwapAddress: "0xaA50d30612A58f2e7935C4482Fa426B0Aa770d7f",
 					stableLpFee: 2e-4,
 					stableLpFeeRateOfTotalFee: .5
@@ -32344,10 +32452,15 @@
 				},
 				s = {
 					weth: new r.WU(42161, "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1", 18, "WETH", "Wrapped Ether", "https://weth.io/"),
+					dai: new r.WU(42161, "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1", 18, "DAI", "Dai Stablecoin", "https://makerdao.com/en/"),
+					usdc: new r.WU(42161, "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8", 6, "USDC.e", "Bridged USDC", "https://arbitrum.foundation/"),
+					wstETH: new r.WU(42161, "0x5979D7b546E38E414F7E9822514be443A4800529", 18, "wstETH", "Wrapped liquid staked Ether 2.0", "https://lido.fi/"),
 					usdt: new r.WU(42161, "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9", 6, "USDT", "Tether USD", "https://tether.to/"),
-					bsmart: new r.WU(42161, "0x3419875B4D3Bca7F3FddA2dB7a476A79fD31B4fE", 9, "BSMART", "Bitcoin Smart", "https://tether.to/"),
-					slinky: new r.WU(42161, "0xF832cA45a6316F0a4447b861f36De8FFa2B06D82", 6, "SLINKY", "Slinky Doge", ""),
-					arbs: new r.WU(42161, "0x750ba8b76187092B0D1E87E28daaf484d1b5273b", 6, "ARBS", "ARBS", "")
+					arb: new r.WU(42161, "0x912CE59144191C1204E64559FE8253a0e49E6548", 18, "ARB", "Arbitrum", "https://arbitrum.foundation/"),
+					arbs: new r.WU(42161, "0xF832cA45a6316F0a4447b861f36De8FFa2B06D82", 6, "SLINKY", "Slinky Doge", ""),
+					usdcn: new r.WU(42161, "0xaf88d065e77c8cC2239327C5EDb3A432268e5831", 6, "USDC", "USD Coin", "https://www.centre.io/"),
+					frxETH: new r.WU(42161, "0x178412e79c25968a32e89b11f63B33F733770c2A", 18, "frxETH", "Frax Ether", "https://app.frax.finance/"),
+					frax: new r.WU(42161, "0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F", 18, "FRAX", "Frax", "https://frax.finance/")
 				},
 				u = {
 					weth: new r.WU(421613, "0xEe01c0CD76354C383B8c7B4e65EA88D00B06f36f", 18, "WETH", "Wrapped Ether", "https://weth.io/"),
@@ -37181,15 +37294,21 @@
 					return n
 				}, n
 			}
-var lr = (0, i.ZP)("a").withConfig({
-    componentId: "sc-b49fe976-0"
-})(cr());
-
-var fr = function(e) {
-    var t = null;
-    var n = null;
-},
-
+			var lr = (0, i.ZP)("a").withConfig({
+					componentId: "sc-b49fe976-0"
+				})(cr()),
+				fr = function(e) {
+					var t = e.href,
+						n = (0, d.useContext)(Ot).linkComponent;
+					return (0, r.jsx)(ue.Z, {
+						children: (0, r.jsx)(lr, {
+							href: t,
+							as: n,
+							"aria-label": "Arbswap home page",
+							children: (0, r.jsx)(vt.Z, {})
+						})
+					})
+				},
 				dr = d.memo(fr),
 				pr = n(50308),
 				hr = n.n(pr);
@@ -37662,7 +37781,7 @@ var fr = function(e) {
 					children: (0, r.jsx)(Gr, {
 						className: "mb-5 flex",
 						onClick: function() {
-							e.push("https://slinkydoge.xyz")
+							e.push("/farms")
 						},
 						children: new Array(2 * Math.ceil(window.innerWidth / 630)).fill(1).map((function() {
 							return (0, r.jsx)($r, {}, Date.now() + Math.random())
@@ -44038,7 +44157,8 @@ var fr = function(e) {
 				o = n(9279),
 				a = n(93901),
 				s = n(2593),
-				u = JSON.parse('[{"inputs":[{"internalType":"address","name":"_factory","type":"address"},{"internalType":"address","name":"_WAVAX","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"inputs":[],"name":"WAVAX","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"address","name":"tokenA","type":"address"},{"internalType":"address","name":"tokenB","type":"address"},{"internalType":"uint256","name":"amountADesired","type":"uint256"},{"internalType":"uint256","name":"amountBDesired","type":"uint256"},{"internalType":"uint256","name":"amountAMin","type":"uint256"},{"internalType":"uint256","name":"amountBMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"addLiquidity","outputs":[{"internalType":"uint256","name":"amountA","type":"uint256"},{"internalType":"uint256","name":"amountB","type":"uint256"},{"internalType":"uint256","name":"liquidity","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"token","type":"address"},{"internalType":"uint256","name":"amountTokenDesired","type":"uint256"},{"internalType":"uint256","name":"amountTokenMin","type":"uint256"},{"internalType":"uint256","name":"amountAVAXMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"addLiquidityAVAX","outputs":[{"internalType":"uint256","name":"amountToken","type":"uint256"},{"internalType":"uint256","name":"amountAVAX","type":"uint256"},{"internalType":"uint256","name":"liquidity","type":"uint256"}],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"factory","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountOut","type":"uint256"},{"internalType":"uint256","name":"reserveIn","type":"uint256"},{"internalType":"uint256","name":"reserveOut","type":"uint256"}],"name":"getAmountIn","outputs":[{"internalType":"uint256","name":"amountIn","type":"uint256"}],"stateMutability":"pure","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountIn","type":"uint256"},{"internalType":"uint256","name":"reserveIn","type":"uint256"},{"internalType":"uint256","name":"reserveOut","type":"uint256"}],"name":"getAmountOut","outputs":[{"internalType":"uint256","name":"amountOut","type":"uint256"}],"stateMutability":"pure","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountOut","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"}],"name":"getAmountsIn","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountIn","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"}],"name":"getAmountsOut","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountA","type":"uint256"},{"internalType":"uint256","name":"reserveA","type":"uint256"},{"internalType":"uint256","name":"reserveB","type":"uint256"}],"name":"quote","outputs":[{"internalType":"uint256","name":"amountB","type":"uint256"}],"stateMutability":"pure","type":"function"},{"inputs":[{"internalType":"address","name":"tokenA","type":"address"},{"internalType":"address","name":"tokenB","type":"address"},{"internalType":"uint256","name":"liquidity","type":"uint256"},{"internalType":"uint256","name":"amountAMin","type":"uint256"},{"internalType":"uint256","name":"amountBMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"removeLiquidity","outputs":[{"internalType":"uint256","name":"amountA","type":"uint256"},{"internalType":"uint256","name":"amountB","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"token","type":"address"},{"internalType":"uint256","name":"liquidity","type":"uint256"},{"internalType":"uint256","name":"amountTokenMin","type":"uint256"},{"internalType":"uint256","name":"amountAVAXMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"removeLiquidityAVAX","outputs":[{"internalType":"uint256","name":"amountToken","type":"uint256"},{"internalType":"uint256","name":"amountAVAX","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"token","type":"address"},{"internalType":"uint256","name":"liquidity","type":"uint256"},{"internalType":"uint256","name":"amountTokenMin","type":"uint256"},{"internalType":"uint256","name":"amountAVAXMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"removeLiquidityAVAXSupportingFeeOnTransferTokens","outputs":[{"internalType":"uint256","name":"amountAVAX","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"token","type":"address"},{"internalType":"uint256","name":"liquidity","type":"uint256"},{"internalType":"uint256","name":"amountTokenMin","type":"uint256"},{"internalType":"uint256","name":"amountAVAXMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"},{"internalType":"bool","name":"approveMax","type":"bool"},{"internalType":"uint8","name":"v","type":"uint8"},{"internalType":"bytes32","name":"r","type":"bytes32"},{"internalType":"bytes32","name":"s","type":"bytes32"}],"name":"removeLiquidityAVAXWithPermit","outputs":[{"internalType":"uint256","name":"amountToken","type":"uint256"},{"internalType":"uint256","name":"amountAVAX","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"token","type":"address"},{"internalType":"uint256","name":"liquidity","type":"uint256"},{"internalType":"uint256","name":"amountTokenMin","type":"uint256"},{"internalType":"uint256","name":"amountAVAXMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"},{"internalType":"bool","name":"approveMax","type":"bool"},{"internalType":"uint8","name":"v","type":"uint8"},{"internalType":"bytes32","name":"r","type":"bytes32"},{"internalType":"bytes32","name":"s","type":"bytes32"}],"name":"removeLiquidityAVAXWithPermitSupportingFeeOnTransferTokens","outputs":[{"internalType":"uint256","name":"amountAVAX","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"tokenA","type":"address"},{"internalType":"address","name":"tokenB","type":"address"},{"internalType":"uint256","name":"liquidity","type":"uint256"},{"internalType":"uint256","name":"amountAMin","type":"uint256"},{"internalType":"uint256","name":"amountBMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"},{"internalType":"bool","name":"approveMax","type":"bool"},{"internalType":"uint8","name":"v","type":"uint8"},{"internalType":"bytes32","name":"r","type":"bytes32"},{"internalType":"bytes32","name":"s","type":"bytes32"}],"name":"removeLiquidityWithPermit","outputs":[{"internalType":"uint256","name":"amountA","type":"uint256"},{"internalType":"uint256","name":"amountB","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountOut","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapAVAXForExactTokens","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountOutMin","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapExactAVAXForTokens","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountOutMin","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapExactAVAXForTokensSupportingFeeOnTransferTokens","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountIn","type":"uint256"},{"internalType":"uint256","name":"amountOutMin","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapExactTokensForAVAX","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountIn","type":"uint256"},{"internalType":"uint256","name":"amountOutMin","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapExactTokensForAVAXSupportingFeeOnTransferTokens","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountIn","type":"uint256"},{"internalType":"uint256","name":"amountOutMin","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapExactTokensForTokens","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountIn","type":"uint256"},{"internalType":"uint256","name":"amountOutMin","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapExactTokensForTokensSupportingFeeOnTransferTokens","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountOut","type":"uint256"},{"internalType":"uint256","name":"amountInMax","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapTokensForExactAVAX","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountOut","type":"uint256"},{"internalType":"uint256","name":"amountInMax","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapTokensForExactTokens","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"nonpayable","type":"function"},{"stateMutability":"payable","type":"receive"}]'),				c = n(24722),
+				u = JSON.parse('[{"inputs":[],"name":"WETH","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"pure","type":"function"},{"inputs":[{"internalType":"address","name":"tokenA","type":"address"},{"internalType":"address","name":"tokenB","type":"address"},{"internalType":"uint256","name":"amountADesired","type":"uint256"},{"internalType":"uint256","name":"amountBDesired","type":"uint256"},{"internalType":"uint256","name":"amountAMin","type":"uint256"},{"internalType":"uint256","name":"amountBMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"addLiquidity","outputs":[{"internalType":"uint256","name":"amountA","type":"uint256"},{"internalType":"uint256","name":"amountB","type":"uint256"},{"internalType":"uint256","name":"liquidity","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"token","type":"address"},{"internalType":"uint256","name":"amountTokenDesired","type":"uint256"},{"internalType":"uint256","name":"amountTokenMin","type":"uint256"},{"internalType":"uint256","name":"amountETHMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"addLiquidityETH","outputs":[{"internalType":"uint256","name":"amountToken","type":"uint256"},{"internalType":"uint256","name":"amountETH","type":"uint256"},{"internalType":"uint256","name":"liquidity","type":"uint256"}],"stateMutability":"payable","type":"function"},{"inputs":[],"name":"factory","outputs":[{"internalType":"address","name":"","type":"address"}],"stateMutability":"pure","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountOut","type":"uint256"},{"internalType":"uint256","name":"reserveIn","type":"uint256"},{"internalType":"uint256","name":"reserveOut","type":"uint256"}],"name":"getAmountIn","outputs":[{"internalType":"uint256","name":"amountIn","type":"uint256"}],"stateMutability":"pure","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountIn","type":"uint256"},{"internalType":"uint256","name":"reserveIn","type":"uint256"},{"internalType":"uint256","name":"reserveOut","type":"uint256"}],"name":"getAmountOut","outputs":[{"internalType":"uint256","name":"amountOut","type":"uint256"}],"stateMutability":"pure","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountOut","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"}],"name":"getAmountsIn","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountIn","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"}],"name":"getAmountsOut","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountA","type":"uint256"},{"internalType":"uint256","name":"reserveA","type":"uint256"},{"internalType":"uint256","name":"reserveB","type":"uint256"}],"name":"quote","outputs":[{"internalType":"uint256","name":"amountB","type":"uint256"}],"stateMutability":"pure","type":"function"},{"inputs":[{"internalType":"address","name":"tokenA","type":"address"},{"internalType":"address","name":"tokenB","type":"address"},{"internalType":"uint256","name":"liquidity","type":"uint256"},{"internalType":"uint256","name":"amountAMin","type":"uint256"},{"internalType":"uint256","name":"amountBMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"removeLiquidity","outputs":[{"internalType":"uint256","name":"amountA","type":"uint256"},{"internalType":"uint256","name":"amountB","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"token","type":"address"},{"internalType":"uint256","name":"liquidity","type":"uint256"},{"internalType":"uint256","name":"amountTokenMin","type":"uint256"},{"internalType":"uint256","name":"amountETHMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"removeLiquidityETH","outputs":[{"internalType":"uint256","name":"amountToken","type":"uint256"},{"internalType":"uint256","name":"amountETH","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"token","type":"address"},{"internalType":"uint256","name":"liquidity","type":"uint256"},{"internalType":"uint256","name":"amountTokenMin","type":"uint256"},{"internalType":"uint256","name":"amountETHMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"removeLiquidityETHSupportingFeeOnTransferTokens","outputs":[{"internalType":"uint256","name":"amountETH","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"token","type":"address"},{"internalType":"uint256","name":"liquidity","type":"uint256"},{"internalType":"uint256","name":"amountTokenMin","type":"uint256"},{"internalType":"uint256","name":"amountETHMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"},{"internalType":"bool","name":"approveMax","type":"bool"},{"internalType":"uint8","name":"v","type":"uint8"},{"internalType":"bytes32","name":"r","type":"bytes32"},{"internalType":"bytes32","name":"s","type":"bytes32"}],"name":"removeLiquidityETHWithPermit","outputs":[{"internalType":"uint256","name":"amountToken","type":"uint256"},{"internalType":"uint256","name":"amountETH","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"token","type":"address"},{"internalType":"uint256","name":"liquidity","type":"uint256"},{"internalType":"uint256","name":"amountTokenMin","type":"uint256"},{"internalType":"uint256","name":"amountETHMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"},{"internalType":"bool","name":"approveMax","type":"bool"},{"internalType":"uint8","name":"v","type":"uint8"},{"internalType":"bytes32","name":"r","type":"bytes32"},{"internalType":"bytes32","name":"s","type":"bytes32"}],"name":"removeLiquidityETHWithPermitSupportingFeeOnTransferTokens","outputs":[{"internalType":"uint256","name":"amountETH","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"address","name":"tokenA","type":"address"},{"internalType":"address","name":"tokenB","type":"address"},{"internalType":"uint256","name":"liquidity","type":"uint256"},{"internalType":"uint256","name":"amountAMin","type":"uint256"},{"internalType":"uint256","name":"amountBMin","type":"uint256"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"},{"internalType":"bool","name":"approveMax","type":"bool"},{"internalType":"uint8","name":"v","type":"uint8"},{"internalType":"bytes32","name":"r","type":"bytes32"},{"internalType":"bytes32","name":"s","type":"bytes32"}],"name":"removeLiquidityWithPermit","outputs":[{"internalType":"uint256","name":"amountA","type":"uint256"},{"internalType":"uint256","name":"amountB","type":"uint256"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountOut","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapETHForExactTokens","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountOutMin","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapExactETHForTokens","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountOutMin","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapExactETHForTokensSupportingFeeOnTransferTokens","outputs":[],"stateMutability":"payable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountIn","type":"uint256"},{"internalType":"uint256","name":"amountOutMin","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapExactTokensForETH","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountIn","type":"uint256"},{"internalType":"uint256","name":"amountOutMin","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapExactTokensForETHSupportingFeeOnTransferTokens","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountIn","type":"uint256"},{"internalType":"uint256","name":"amountOutMin","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapExactTokensForTokens","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountIn","type":"uint256"},{"internalType":"uint256","name":"amountOutMin","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapExactTokensForTokensSupportingFeeOnTransferTokens","outputs":[],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountOut","type":"uint256"},{"internalType":"uint256","name":"amountInMax","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapTokensForExactETH","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[{"internalType":"uint256","name":"amountOut","type":"uint256"},{"internalType":"uint256","name":"amountInMax","type":"uint256"},{"internalType":"address[]","name":"path","type":"address[]"},{"internalType":"address","name":"to","type":"address"},{"internalType":"uint256","name":"deadline","type":"uint256"}],"name":"swapTokensForExactTokens","outputs":[{"internalType":"uint256[]","name":"amounts","type":"uint256[]"}],"stateMutability":"nonpayable","type":"function"}]'),
+				c = n(24722),
 				l = n(47e3),
 				f = n(63511),
 				d = n(43256),
