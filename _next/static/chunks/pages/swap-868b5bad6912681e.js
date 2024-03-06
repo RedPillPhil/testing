@@ -2165,6 +2165,9 @@
 					s = qt((0, a.cP)(e, n.allowedSlippage)),
 					l = e.route.path.map((function(n, t) {
 						return 0 === t && e.inputAmount.currency.isNative || t === e.route.path.length - 1 && e.outputAmount.currency.isNative ? $t : n.isToken ? n.address : $t
+					})),
+					d = e.route.pairs.map((function(e) {
+						return (null === e || void 0 === e ? void 0 : e.stableSwapAddress) ? "0x0" : "0x1"
 					}));
 				return 2 === l.length ? (o = "swap", i = [l[0], l[1], c, s, d[0]], u = t ? c : "0x0") : (o = "swapMulti", i = [l, c, s, d], u = t ? c : "0x0"), {
 					methodName: o,
